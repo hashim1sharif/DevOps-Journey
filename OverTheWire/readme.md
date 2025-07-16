@@ -1,13 +1,13 @@
 overtherwire journey
 
-1. Version Control Workflow
+# Version Control Workflow
 
-# How to see untracked files (git status)
-# How to add files (git add filename)
-# How to write commit massages ( git commit -m "your message")
-# How to send your changes to GitHub (git push origin main)
+1. How to see untracked files (git status)
+2. How to add files (git add filename)
+3. How to write commit massages ( git commit -m "your message")
+4. How to send your changes to GitHub (git push origin main)
 
-2. OverTheWire
+# OverTheWire
 
-# how to connect via SSH using a non-default port (2220)
-# Practiced using (scp) to transfer files securely.
+1. how to connect via SSH using a non-default port (2220)
+2. Practiced using (scp) to transfer files securely.
