@@ -10,4 +10,4 @@ overtherwire journey
 # OverTheWire
 
 1. how to connect via SSH using a non-default port (2220)
-2. Practiced using (scp) to transfer files securely.
+2. Practiced using (scp) to transfer files securely (source on server) (destination on local)
