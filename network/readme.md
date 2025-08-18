@@ -54,4 +54,11 @@ The protocol that makes Segment into Packet is IP and with IP we have Source and
 
 Network layer is to identify devices on the network.
 
-Data Link: the packet gets passed down to the Data link and it becomes Frame.
+Data Link: the packet gets passed down to the Data link and it becomes Frame. this layer provides node to node transfer and detects, possibly corrects, errors that may occur in the Physical layer. it ensures that data is transferred correctly between adjecent network nodes.
+
+Physisca layer: transmits raw bit stream over physical medium.
+
+    Components:
+
+Cabels, weitches and network interface cards.
+
