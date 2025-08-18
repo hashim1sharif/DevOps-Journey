@@ -49,4 +49,9 @@ Suitable for real time applicatins (e.g., video straaming)
 DNS
 VPN (Virtual Private Network) you may use before i work or other places, some VPN protocol use UDP because its faster and works better for streaming and real time applications.
 
-Network layer:
+Network layer: we passed that Segment down to the Network layer and it becames Packet.
+The protocol that makes Segment into Packet is IP and with IP we have Source and Destination address.
+
+Network layer is to identify devices on the network.
+
+Data Link: the packet gets passed down to the Data link and it becomes Frame.
