@@ -2,7 +2,6 @@ Open Systems interconnection model (OSI Model) is more of reference a guideline 
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/042934aa0855397a2e434ca26abc1a982d2c7e0d/network/Screenshot%202025-08-18%20160220.png)
 
-
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/02bd8ea5897cf95f0d05df76fdc012b9c0db71cf/network/Screenshot%202025-08-18%20160613.png)
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/f2ec69d973af1d9bae4247af3dd8357274eb801e/network/Screenshot%202025-08-18%20160558.png)
@@ -60,13 +59,13 @@ Data Link: the packet gets passed down to the Data link and it becomes Frame. th
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/51c0dfa89ea4816988ca42890a72e6aa4ccac2ec/network/Screenshot%202025-08-18%20160445.png)
 Physisca layer: transmits raw bit stream over physical medium.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/c56afbfd43286dcb3a9379595d28abda5bb93452/network/Screenshot%202025-08-18%20160427.png)
-    Components:
+Components:
 
 Cabels, weitches and network interface cards.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/36ab0cd4f2912f9a95385c556047919054703c14/network/Screenshot%202025-08-18%20160256.png)
 
+            Domain Name System
 
-            Domain Name System 
 DNS is the internet's directory, it translates human-readble domain names, sush as google.com to machine-readable IP addresses.
 
 There are three main levels of authoritative DNS servers.
@@ -74,8 +73,7 @@ There are three main levels of authoritative DNS servers.
 1: Root Nameservers.
 2: Top Level Domanian Nameservers. (TLD)
 3: Authoritative Nameservers.
+
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/97c9a2bae642f04597cc6cab18a00094dd3594f6/Screenshot%202025-08-22%20165803.png)
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/75e450a0e811f35fa68c4e41ff8150a01e3add8e/network/Screenshot%202025-08-18%20152145.png)
-=======
-
