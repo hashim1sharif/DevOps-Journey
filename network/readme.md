@@ -1,12 +1,7 @@
 Open Systems interconnection model (OSI Model) is more of reference a guideline to help us understand what the comminucation process entails.
 
-Application
-Presentation
-Session
-Transport
-Network
-Data Link
-Physical
+https://github.com/hashim1sharif/DevOps-Journey/blob/042934aa0855397a2e434ca26abc1a982d2c7e0d/network/Screenshot%202025-08-18%20160220.png
+
 
 The comminucation process entails both directions, going down the stuck is what we call (Encapsulating) and going up the stack we call (Decapsulation).
 
