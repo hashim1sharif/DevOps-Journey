@@ -66,11 +66,7 @@ Cabels, weitches and network interface cards.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/36ab0cd4f2912f9a95385c556047919054703c14/network/Screenshot%202025-08-18%20160256.png)
 
 
-<<<<<<< HEAD
-![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/97c9a2bae642f04597cc6cab18a00094dd3594f6/Screenshot%202025-08-22%20165803.png)
-
-![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/75e450a0e811f35fa68c4e41ff8150a01e3add8e/network/Screenshot%202025-08-18%20152145.png)
-=======
+            Domain Name System 
 DNS is the internet's directory, it translates human-readble domain names, sush as google.com to machine-readable IP addresses.
 
 There are three main levels of authoritative DNS servers.
@@ -78,4 +74,8 @@ There are three main levels of authoritative DNS servers.
 1: Root Nameservers.
 2: Top Level Domanian Nameservers. (TLD)
 3: Authoritative Nameservers.
->>>>>>> f41e172 (update)
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/97c9a2bae642f04597cc6cab18a00094dd3594f6/Screenshot%202025-08-22%20165803.png)
+
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/75e450a0e811f35fa68c4e41ff8150a01e3add8e/network/Screenshot%202025-08-18%20152145.png)
+=======
+
