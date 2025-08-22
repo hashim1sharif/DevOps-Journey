@@ -63,7 +63,7 @@ Physisca layer: transmits raw bit stream over physical medium.
     Components:
 
 Cabels, weitches and network interface cards.
-
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/36ab0cd4f2912f9a95385c556047919054703c14/network/Screenshot%202025-08-18%20160256.png)
 
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/75e450a0e811f35fa68c4e41ff8150a01e3add8e/network/Screenshot%202025-08-18%20152145.png)
