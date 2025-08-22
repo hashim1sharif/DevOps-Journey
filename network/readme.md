@@ -5,7 +5,7 @@ https://github.com/hashim1sharif/DevOps-Journey/blob/042934aa0855397a2e434ca26ab
 
 The comminucation process entails both directions, going down the stuck is what we call (Encapsulating) and going up the stack we call (Decapsulation).
 
-Layer 7, layer 6 and layer 5 can be group together and they produce to tranpot layer Date 10101010110 (Protocal Data Unit: PDU).
+Layer 7, layer 6 and layer 5 can be group together and they produce to transpot layer Date 10101010110 (Protocal Data Unit: PDU).
 
 Trasport layer: is going to identify what application make request and which service receive and the way is going to identify them is to port addresses (443 or 88 (HTTPS or HTTP)) its giong to be a source and destination.
 
