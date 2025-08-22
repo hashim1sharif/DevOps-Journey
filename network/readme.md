@@ -54,6 +54,7 @@ Network layer: we passed that Segment down to the Network layer and it becames P
 The protocol that makes Segment into Packet is IP and with IP we have Source and Destination address.
 
 Network layer is to identify devices on the network.
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/d5d6d9b1be877050de391bdd312ae22fbfabf90e/network/Screenshot%202025-08-18%20160503.png)
 
 Data Link: the packet gets passed down to the Data link and it becomes Frame. this layer provides node to node transfer and detects, possibly corrects, errors that may occur in the Physical layer. it ensures that data is transferred correctly between adjecent network nodes.
 
