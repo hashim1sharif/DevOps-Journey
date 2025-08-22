@@ -59,7 +59,7 @@ Network layer is to identify devices on the network.
 Data Link: the packet gets passed down to the Data link and it becomes Frame. this layer provides node to node transfer and detects, possibly corrects, errors that may occur in the Physical layer. it ensures that data is transferred correctly between adjecent network nodes.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/51c0dfa89ea4816988ca42890a72e6aa4ccac2ec/network/Screenshot%202025-08-18%20160445.png)
 Physisca layer: transmits raw bit stream over physical medium.
-
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/c56afbfd43286dcb3a9379595d28abda5bb93452/network/Screenshot%202025-08-18%20160427.png)
     Components:
 
 Cabels, weitches and network interface cards.
