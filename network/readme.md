@@ -7,6 +7,7 @@ Open Systems interconnection model (OSI Model) is more of reference a guideline 
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/f2ec69d973af1d9bae4247af3dd8357274eb801e/network/Screenshot%202025-08-18%20160558.png)
 
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/223d8546bf84dd62452dbfda74651a7ba98f5ff3/network/Screenshot%202025-08-18%20160546.png)
 
 The comminucation process entails both directions, going down the stuck is what we call (Encapsulating) and going up the stack we call (Decapsulation).
 
