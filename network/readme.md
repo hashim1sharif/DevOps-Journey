@@ -77,3 +77,24 @@ There are three main levels of authoritative DNS servers.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/97c9a2bae642f04597cc6cab18a00094dd3594f6/Screenshot%202025-08-22%20165803.png)
 
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/75e450a0e811f35fa68c4e41ff8150a01e3add8e/network/Screenshot%202025-08-18%20152145.png)
+
+
+        ROUTING 
+
+Definition: Procecc of determining paths for data to travel across networks.
+
+Important: Ensures data reaches destination efficiently fundamental for internet functionality.
+
+Routers determine the best path and what they use is routing tables to make decisions.
+
+Router is the component and routing tables is what they actually use which are basically like a map to help them decide where to send the data.
+
+
+        Subnetting
+
+Dividing a network into smaller networks.
+
+
+Classless Inter Domain Routing (CIDR)
+
+CIDR: is a method for allocating IP addresses and routing IP packets.
