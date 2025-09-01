@@ -53,3 +53,12 @@ Docker networking is crucial in DevOps because it enables efficient and secure c
     What is Docker Compose?
 
 Docker Compose is a tool that allows you to define and run multi-container applications using a single YAML file. It simplifies managing services like web apps, databases, and caches by letting you configure them in one place and start them all with a single command. This is especially useful in DevOps for setting up, testing, and deploying complex applications consistently and efficiently.
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/f0273782bd8e54bbdff138129899b98ca3ecea66/Screenshot%202025-09-01%20155826.png)
+
+    Why is Docker Compose important in DevOps?
+
+Docker Compose is crucial in DevOps because it simplifies the management of multi-container applications. It allows you to define and run all your services—like app, database, cache—in a single YAML file, making deployment consistent and repeatable across environments. This speeds up development, testing, and CI/CD pipelines by ensuring environments are reproducible and easy to spin up or tear down.
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/118075d36bbaec9a3528bb75973b3b2a1bdd56d7/Screenshot%202025-09-01%20160241.png)
+
+
+
