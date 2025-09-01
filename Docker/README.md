@@ -29,12 +29,12 @@ Isolated: Each container runs independently, avoiding conflicts between apps.
 
 Efficient CI/CD: Speeds up build, test, and deployment pipelines with clean, repeatable environments.
 
-
-        Images and Containers 
+        Images and Containers
 
 Images are read-only templates that contain all the necessary files, libraries, and dependencies to create and run containers.
 
-    HOW DO YOU CREATE THESE IMAGES? 
+    HOW DO YOU CREATE THESE IMAGES?
+
 You create Docker images by writing a Dockerfile that specifies the environment and steps to set up your app, then run docker build to build the image from that file.
 ![Image alt](https://github.com/hashim1sharif/DevOps-Journey/blob/80cb909b21c3ff4953932904a2e97f5d2c2888c3/Screenshot%202025-08-28%20160438.png)
 
@@ -44,3 +44,12 @@ Containers are running instances of images. You can think of an image as a snaps
 
 Containers share the host OS and are lightweight, fast to start, and great for running isolated applications. VMs include a full guest OS, are heavier, and provide stronger isolation but with more overhead.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/99f80f748802f4be25cf63c93f4aa62215f7bd18/Screenshot%202025-08-28%20162113.png)
+
+    Docker Networking in DevOps
+
+Docker networking is crucial in DevOps because it enables efficient and secure communication between microservices independent services running in separate containers. It supports different network types like bridge, host, and none, allowing flexibility in how services interact, regardless of where they run. Docker's networking model is also scalable, making it easy to connect and grow services as the application expands.
+![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/aeb4c039a7743dac5c16e8f6c09473e8bd3673a3/Screenshot%202025-09-01%20172137.png)
+
+    What is Docker Compose?
+
+Docker Compose is a tool that allows you to define and run multi-container applications using a single YAML file. It simplifies managing services like web apps, databases, and caches by letting you configure them in one place and start them all with a single command. This is especially useful in DevOps for setting up, testing, and deploying complex applications consistently and efficiently.
