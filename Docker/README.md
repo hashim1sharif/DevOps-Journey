@@ -57,8 +57,5 @@ Docker Compose is a tool that allows you to define and run multi-container appli
 
     Why is Docker Compose important in DevOps?
 
-Docker Compose is crucial in DevOps because it simplifies the management of multi-container applications. It allows you to define and run all your services—like app, database, cache—in a single YAML file, making deployment consistent and repeatable across environments. This speeds up development, testing, and CI/CD pipelines by ensuring environments are reproducible and easy to spin up or tear down.
+Docker Compose is crucial in DevOps because it simplifies the management of multi container applications. It allows you to define and run all your services like app, database, cache in a single YAML file, making deployment consistent and repeatable across environments. This speeds up development, testing, and CI/CD pipelines by ensuring environments are reproducible and easy to spin up or tear down.
 ![Image Alt](https://github.com/hashim1sharif/DevOps-Journey/blob/118075d36bbaec9a3528bb75973b3b2a1bdd56d7/Screenshot%202025-09-01%20160241.png)
-
-
-
