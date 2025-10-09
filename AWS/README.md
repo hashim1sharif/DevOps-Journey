@@ -115,3 +115,128 @@ Detects unused or risky permissions.
 Prevents over-privileged access.
 
 Keeps your AWS environment compliant and secure.
+
+
+
+ALB = Layer 7 (HTTP/S, gRPC) → smart routing and web features.
+
+NLB = Layer 4 (TCP/UDP/TLS) → extreme performance, static IPs, and non-HTTP protocols.
+
+When to pick each
+Pick ALB when you need:
+
+HTTP-aware routing: host/path routing, header/query rules, weighted rules, canary/blue-green.
+
+gRPC / HTTP/2 / WebSockets support.
+
+App features: OAuth/OIDC/Cognito auth at the edge, AWS WAF integration, request/response headers, redirects, fixed responses.
+
+Cookie stickiness (per target group).
+
+Lambda targets (serve HTTP without servers).
+
+Detailed HTTP health checks (status codes, paths).
+
+Typical ALB use cases
+
+Public websites & APIs with microservices (e.g., /api, /img, admin.example.com).
+
+gRPC services between frontends/backends.
+
+Apps needing user auth offloaded at the load balancer.
+
+WebSockets dashboards/chats.
+
+Pick NLB when you need:
+
+Ultra-low latency & very high throughput (millions of req/s) with minimal L4 overhead.
+
+Non-HTTP protocols: TCP/UDP (e.g., SMTP, MQTT, DNS over UDP/TCP, Syslog, game servers, FIX).
+
+Static IPs / Elastic IPs per AZ (for allowlists, partner firewalls, compliance).
+
+Source IP preservation at L4 (no X-Forwarded-For parsing needed).
+
+TLS passthrough or TLS termination without L7 features; supports mTLS on targets when you passthrough.
+
+PrivateLink provider (VPC Endpoint Service requires NLB).
+
+L4 stickiness (source-IP based) when needed.
+
+TCP/UDP/HTTPS health checks.
+
+Typical NLB use cases
+
+Financial trading (FIX), IoT/MQTT, game backends, SMTP/IMAP, custom TCP/UDP services.
+
+Services that must expose static IPs/EIPs to customers or partners.
+
+PrivateLink-exposed internal platforms.
+
+mTLS where the backend must see the original client cert.
+
+Quick decision guide
+
+Need path/host routing, WAF, auth, Lambda targets, gRPC/WebSockets? → ALB
+
+Need static IP/EIP, non-HTTP (TCP/UDP), L4 latency/throughput, PrivateLink, or strict source-IP preservation? → NLB
+
+Have both (e.g., web + MQTT)? It’s common to run ALB for web and NLB for protocol/back-end side by side.
+
+
+
+                Stateful Firewall
+
+A stateful firewall keeps track of the state of every active connection — it understands the context of the traffic.
+
+How it works:
+
+When a packet comes in, the firewall checks if it belongs to an existing connection.
+
+If it’s part of an already-allowed session (e.g., a response to an outbound request), it’s automatically allowed.
+
+If it’s a new connection, the firewall evaluates its rules and (if allowed) remembers it in the state table.
+
+Example:
+
+You send a request from your app to a web server on port 443.
+
+The response traffic from port 443 → your port 5678 is automatically allowed because it’s part of the same session.
+
+Used for:
+
+Most modern firewalls, including AWS Security Groups.
+
+Good for web apps, APIs, and typical client-server traffic.
+
+Easier management: only define one direction of the flow (return traffic handled automatically).
+
+
+                Stateless Firewall
+
+A stateless firewall does not track connection states — each packet is inspected individually in isolation.
+
+How it works:
+
+Every inbound and outbound packet must explicitly match a rule.
+
+Return traffic is not automatically allowed — you must add separate rules for both directions.
+
+Example:
+
+If you allow outbound traffic to port 443, you must also explicitly allow inbound traffic for the response ports (e.g., ephemeral ports).
+
+Used for:
+
+High-performance or low-level network filtering.
+
+AWS Network ACLs (NACLs) are stateless.
+
+Useful when you need very granular control or handle non-session protocols (like UDP).
+
+
+            In short:
+
+Use stateful when you care about sessions and simplicity (typical for servers and apps).
+
+Use stateless when you need speed and strict packet-level control (typical for edge or subnet-level filters).
