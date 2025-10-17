@@ -8,3 +8,5 @@ That means to create some sort of classification some sort of standard process b
 Terraform allows you to difine a file a blueprint of how you want your infrastructure to look.
 
 
+
+
