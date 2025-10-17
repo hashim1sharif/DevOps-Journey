@@ -32,3 +32,5 @@ Terraform = the tool that makes them the same.
                 What are Terraform Providers?
 
 Terraform providers are like plugins or connectors that let Terraform talk to different platforms (like AWS, Azure, Google Cloud, or even GitHub, Docker, etc.).
+
+![image alt](https://github.com/hashim1sharif/DevOps-Journey/blob/404bf1996f94da7aaca5e143a63bd1df871cb8eb/Terraform/images/Screenshot%202025-10-17%20163602.png)
