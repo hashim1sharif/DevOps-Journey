@@ -8,3 +8,4 @@ That means to create some sort of classification some sort of standard process b
 Terraform allows you to difine a file a blueprint of how you want your infrastructure to look.
 
 
+![iamge alt](https://github.com/hashim1sharif/DevOps-Journey/blob/88e257d9a3a9f84906303913bd6cdbb3a34a9f97/Screenshot%202025-10-17%20152858.png)
