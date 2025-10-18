@@ -53,9 +53,10 @@ Is the final command in the Terraform lifecycle — it deletes all infrastructur
 
                 Local Statefile
 
-
 Terraform stores the state file (terraform.tfstate) on your local machine. It’s simple to use and best for small or personal projects, but it’s not suitable for teams because it can’t be shared or locked, which risks conflicts and data loss.
 
                 Remote Statefile
 
 Terraform stores the state file in a remote backend (like AWS S3, Azure Blob, or Terraform Cloud). This allows multiple users to share the same state, supports locking, provides better security and backups, and is ideal for team and production environments.
+
+![image alt](https://github.com/hashim1sharif/DevOps-Journey/blob/153fb3cf87d165bf8d812b499afb71031e1a6855/Terraform/images/Screenshot%202025-10-18%20135058.png)
