@@ -51,6 +51,8 @@ Is the third key command in the Terraform workflow — it actually executes the 
 
 Is the final command in the Terraform lifecycle — it deletes all infrastructure that Terraform created.
 
+![image alt](https://github.com/hashim1sharif/DevOps-Journey/blob/947de0b01204a94e7c038b923267974a2eb5312c/Terraform/images/Screenshot%202025-10-11%20134132.png)
+
                 Local Statefile
 
 Terraform stores the state file (terraform.tfstate) on your local machine. It’s simple to use and best for small or personal projects, but it’s not suitable for teams because it can’t be shared or locked, which risks conflicts and data loss.
