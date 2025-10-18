@@ -34,3 +34,28 @@ Terraform = the tool that makes them the same.
 Terraform providers are like plugins or connectors that let Terraform talk to different platforms (like AWS, Azure, Google Cloud, or even GitHub, Docker, etc.).
 
 ![image alt](https://github.com/hashim1sharif/DevOps-Journey/blob/404bf1996f94da7aaca5e143a63bd1df871cb8eb/Terraform/images/Screenshot%202025-10-17%20163602.png)
+
+                Terraform init
+
+Is the first command you run in a new or existing Terraform project. It initializes the working directory that contains your Terraform configuration files (like main.tf, variables.tf, etc.).
+
+                Terraform plan
+
+Is the second major command in the Terraform workflow — it lets you preview what changes Terraform will make to your infrastructure before actually applying them.
+
+                Terraform apply
+
+Is the third key command in the Terraform workflow — it actually executes the changes that terraform plan previewed.
+
+                Terraform destroy
+
+Is the final command in the Terraform lifecycle — it deletes all infrastructure that Terraform created.
+
+                Local Statefile
+
+
+Terraform stores the state file (terraform.tfstate) on your local machine. It’s simple to use and best for small or personal projects, but it’s not suitable for teams because it can’t be shared or locked, which risks conflicts and data loss.
+
+                Remote Statefile
+
+Terraform stores the state file in a remote backend (like AWS S3, Azure Blob, or Terraform Cloud). This allows multiple users to share the same state, supports locking, provides better security and backups, and is ideal for team and production environments.
